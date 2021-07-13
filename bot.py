@@ -5,8 +5,8 @@ from time import sleep
 driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver") 
 driver.get("https://twitter.com/login")
 sleep(3)
-driver.find_element_by_name("session[username_or_email]").send_keys("suniltweetbot1")
-driver.find_element_by_name("session[password]").send_keys("asnasosu14325")
+driver.find_element_by_name("session[username_or_email]").send_keys("your username")
+driver.find_element_by_name("session[password]").send_keys("your password")
 driver.find_element_by_name("session[password]").send_keys(Keys.RETURN)
 sleep(3)
 
